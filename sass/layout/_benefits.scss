@@ -1,0 +1,21 @@
+/* переваги */
+.benefits {
+    display: flex;
+    inline-size: auto;
+}
+
+.container .benefits .item+.item {
+    margin-left: 30px;
+}
+
+.benefits_title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.benefits_detal {
+    line-height: 1.71;
+    color: var(--text-color);
+}

@@ -90,11 +90,21 @@ ul {
 
 /* контейнер */
 .container {
-  max-width: 1200px;
+  max-width: 480px;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 .button {
@@ -614,9 +624,26 @@ textarea {
   height: 60px;
 }
 
+.burger {
+  background-color: transparent;
+  fill: var(--dark-color);
+  border-color: rgba(0, 0, 0, 0);
+  margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+}
+
 /* ====================ХЕДЕР======================= */
 header {
   border-bottom: 1px solid var(--silver-color);
+}
+@media screen and (min-width: 480px) {
+  header {
+    width: 60px;
+  }
 }
 
 .header__logo {
@@ -641,10 +668,15 @@ header {
 
 /* навігація хедера */
 .nav__section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 93px;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .nav__section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 93px;
+  }
 }
 
 .nav__section .nav__item + .nav__item {
@@ -718,14 +750,19 @@ nav {
 
 /* формат шрифту посилання телефон */
 .header__contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
-  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .header__link {

@@ -2,7 +2,10 @@
 
  header {
      border-bottom: 1px solid var(--silver-color);
- }
+    @media screen and(min-width:480px){width: 60px;}
+        
+    }
+ 
 
  .header__logo {
      text-decoration: none;
@@ -27,8 +30,11 @@
  /* навігація хедера */
 
  .nav__section {
-     display: flex;
-     margin-left: 93px;
+    display: none;
+    @media screen and ( min-width:768px){
+        display: flex;
+            margin-left: 93px;
+    }
  }
 
  .nav__section .nav__item+.nav__item {
@@ -84,6 +90,7 @@
  .header__section {
      display: flex;
      align-items: center;
+   
  }
 
  nav {
@@ -95,9 +102,12 @@
  /* формат шрифту посилання телефон */
 
  .header__contact {
-     display: flex;
-     margin-left: auto;
-     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: none;
+    @media screen and(min-width:768px){
+        display: flex;
+            margin-left: auto;
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }  
  }
 
  .header__link {

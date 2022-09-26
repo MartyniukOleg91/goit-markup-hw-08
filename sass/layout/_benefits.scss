@@ -1,4 +1,13 @@
 /* переваги */
+
+.benefits{
+@media screen and(max-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;;
+}}
+
+
+
 .benefits {
     display: flex;
     inline-size: auto;
@@ -13,7 +22,8 @@
     line-height: 1.14;
     text-transform: uppercase;
     margin-bottom: 10px;
-}
+    @media screen and(max-width: 768px) {
+   text-align: center;}}
 
 .benefits_detal {
     line-height: 1.71;

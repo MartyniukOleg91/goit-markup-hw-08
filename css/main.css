@@ -528,6 +528,17 @@ textarea {
   padding-bottom: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 0;
+  }
+}
+
 .team {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -541,6 +552,18 @@ textarea {
 .our_team {
   background-color: #f5f4fa;
   padding-top: 94px;
+}
+@media screen and (max-width: 768px) {
+  .our_team {
+    padding-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .icon-group {
@@ -1075,6 +1098,16 @@ address {
 }
 
 /* переваги */
+@media screen and (max-width: 768px) {
+  .benefits {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .benefits {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1091,6 +1124,11 @@ address {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .benefits_title {
+    text-align: center;
+  }
 }
 
 .benefits_detal {

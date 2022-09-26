@@ -545,6 +545,15 @@ textarea {
 @media screen and (min-width: 768px) {
   .team {
     padding-bottom: 94px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 }
 
@@ -567,7 +576,7 @@ textarea {
 .our_team .item + .item {
   margin-top: 10px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .our_team .item + .item {
     margin-left: 30px;
     margin-top: 0px;
@@ -1233,24 +1242,32 @@ address {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .benefits {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container .benefits .item {
+    width: calc((100% - 30px) / 2);
   }
 }
 
 .container .benefits .item + .item {
   margin-left: 0px;
 }
-@media screen and (min-width: 768px) {
-  .container .benefits .item + .item {
-    margin-left: 30px;
-  }
-}
-
 .benefits_title {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
   .benefits_title {
-    text-align: left;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;

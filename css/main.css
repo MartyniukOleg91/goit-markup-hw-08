@@ -665,7 +665,7 @@ header {
 }
 @media screen and (min-width: 480px) {
   header {
-    height: 60px;
+    height: 100%;
   }
 }
 
@@ -692,7 +692,6 @@ header {
 /* навігація хедера */
 .nav__section {
   display: none;
-  height: 100%;
 }
 @media screen and (min-width: 768px) {
   .nav__section {
@@ -761,6 +760,11 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .header__section {
+    height: 60px;
+  }
 }
 
 nav {
@@ -1127,6 +1131,18 @@ address {
   display: -ms-flexbox;
   display: flex;
   inline-size: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .benefits {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .container .benefits .item + .item {

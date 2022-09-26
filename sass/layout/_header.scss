@@ -2,10 +2,10 @@
 
  header {
      border-bottom: 1px solid var(--silver-color);
-    @media screen and(min-width:480px){height: 60px;}
+    @media screen and(min-width: 480px){height: 100%;}
         
     }
-
+ 
  .header__logo {
      text-decoration: none;
      font-family: 'Raleway';
@@ -30,7 +30,6 @@
 
  .nav__section {
     display: none;
-    height: 100%;
     @media screen and ( min-width:768px){
         display: flex;
             margin-left: 93px;
@@ -90,8 +89,13 @@
  .header__section {
      display: flex;
      align-items: center;
+
+    @media screen and(max-width: 767px) {
+            height: 60px;
+        }
+    }
    
- }
+ 
 
  nav {
      display: flex;

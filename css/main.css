@@ -1061,6 +1061,11 @@ address {
   background-position: center;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .center_text {
+    height: 100%;
+  }
+}
 
 /* Центральна кнопка */
 .text_button {

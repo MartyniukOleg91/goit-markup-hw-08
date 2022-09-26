@@ -535,7 +535,7 @@ textarea {
   padding-bottom: 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .team {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -553,14 +553,17 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 94px;
+}
+@media screen and (min-width: 768px) {
+  .team {
+    padding-bottom: 94px;
+  }
 }
 
 .our_team {
   background-color: #f5f4fa;
-  padding-top: 94px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .our_team {
     padding-top: 0;
     display: -webkit-box;
@@ -629,7 +632,13 @@ textarea {
 }
 
 .our_team .item + .item {
-  margin-left: 30px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .our_team .item + .item {
+    margin-left: 30px;
+    margin-top: 0px;
+  }
 }
 
 .team_name {

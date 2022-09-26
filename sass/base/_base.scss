@@ -1,12 +1,12 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* скидання стилів */
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -17,28 +17,32 @@ h5,
 h6,
 p,
 ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-    font-family: 'Roboto';
-    color: #212121;
-    background-color: var(--color-light);
-    font-size: 14px;
-    letter-spacing: 0.03em;
+  font-family: 'Roboto';
+  color: #212121;
+  background-color: var(--color-light);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and(min-width:768px) {
     padding-top: 94px;
     padding-bottom: 94px;
+  }
 }
 
 /* скасування колонтитулів */
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }

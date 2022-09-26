@@ -1,195 +1,189 @@
 /* ===================ФУТЕР============================ */
 
 .footer {
-    max-width: 1200px;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-
+  max-width: 1200px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 .footer__block {
-    padding-top: 60px;
-    padding-bottom: 94px;
-   
+  padding-top: 60px;
+  padding-bottom: 94px;
 }
 
 /* logo footer WebStudio */
 .footer__logo {
-    display: block;
-    padding-bottom: 20px;
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    color: var(--accent-color);
+  display: block;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--accent-color);
 }
 
 .section {
-    background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
-
 .footer__logo-white {
-    color: var(--color-light);
+  color: var(--color-light);
 }
 
 .footer__item li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footer__item li:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 footer {
-    background: #2f303a;
-  
+  background: #2f303a;
 }
 
-
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .footer__link {
-    line-height: 24px;
-    color: var(--color-light);
-    text-decoration: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  line-height: 24px;
+  color: var(--color-light);
+  text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer__link:hover,
 .footer__link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .footer__link--contact {
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer__link--contact:hover,
 .footer__link--contact:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .footer__join {
-    margin-left: 70px;
+  margin-left: 70px;
 }
 
 .footer__title {
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--color-light);
-    margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--color-light);
+  margin-bottom: 20px;
 }
 
 .footer__social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__social-icon {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .footer__social-link {
-    background-color: #44454e;
-    width: 44px;
-    height: 44px;
-    border: 2px solid rgba(255, 255, 255, 0);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-    color: var(--color-light);
-    fill: currentColor;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #44454e;
+  width: 44px;
+  height: 44px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  color: var(--color-light);
+  fill: currentColor;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer__social-link:hover,
 .footer__social-link:focus {
-    background-color: var(--accent-color);
-    fill: var(--color-light);
+  background-color: var(--accent-color);
+  fill: var(--color-light);
 }
 
 .footer__subscribe {
-    margin-left: auto;
-   
+  margin-left: auto;
 }
 
 .footer__subscribe-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__subscribe-button {
-    width: 200px;
-    height: 50px;
-    background: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border-color: rgba(255, 255, 255, 0);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    text-decoration: none;
-    color: var(--color-light);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 200px;
+  height: 50px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: rgba(255, 255, 255, 0);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--color-light);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__subscribe-button:hover,
 .footer__subscribe-button:focus {
-    background-color: var(--color-light);
-    color: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--color-light);
+  color: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer__subscribe-text {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .footer__label {
-    width: 358px;
-    max-height: 50px;
-    background-color: #2f303a;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding: 15px;
+  width: 358px;
+  max-height: 50px;
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding: 15px;
 }
 
 .footer__label:hover,
 .footer__label:focus {
-    border-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .footer__icon-send {
-    fill: currentColor;
-    width: 24px;
-    height: 24px;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
 }

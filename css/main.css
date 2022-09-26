@@ -79,8 +79,14 @@ body {
 }
 
 section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 /* скасування колонтитулів */
@@ -508,6 +514,12 @@ textarea {
   color: var(--color-light);
 }
 
+@media screen and (max-width: 767px) {
+  .job {
+    display: none;
+  }
+}
+
 /* Імена учасників команди */
 .section {
   background-color: #F5F4FA;
@@ -893,7 +905,7 @@ nav {
 }
 
 .section {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .footer__logo-white {
@@ -1146,14 +1158,25 @@ address {
 }
 
 .container .benefits .item + .item {
-  margin-left: 30px;
+  margin-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .container .benefits .item + .item {
+    margin-left: 30px;
+  }
 }
 
 .benefits_title {
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .benefits_title {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
 }
 
 .benefits_detal {

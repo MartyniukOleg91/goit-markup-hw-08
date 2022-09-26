@@ -1,18 +1,23 @@
 /* ===================ФУТЕР============================ */
 
 .footer {
-  max-width: 1200px;
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
-.footer__block {
   padding-top: 60px;
-  padding-bottom: 94px;
-}
+padding-bottom: 70px;
+display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and(min-width:1200px) {
+    padding-bottom: 94px;
+    flex-direction: row;
+  }
+    }
+
+
+  
+
 
 /* logo footer WebStudio */
 .footer__logo {

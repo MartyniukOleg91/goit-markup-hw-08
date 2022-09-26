@@ -8,11 +8,6 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    @media screen and(max-width :768px) {
-            display: flex;
-            flex-direction: column;
-        }
-
 }
 
 .footer__block {
@@ -142,11 +137,6 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
-    @media screen and(max-width :768px) {
-            display: flex;
-            flex-direction: column;
-        
-        }
 }
 
 .footer__subscribe-button {

@@ -493,7 +493,7 @@ textarea {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 400px;
+  width: 334px;
 }
 @media screen and (min-width: 768px) {
   .buttons {
@@ -752,7 +752,6 @@ textarea {
   width: 100vw;
   min-height: 100vw;
   background-color: var(--color-light);
-  padding: 20px 48px;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
   z-index: 999;
@@ -1325,7 +1324,7 @@ address {
 }
 
 .footer__label {
-  width: 358px;
+  width: 320px;
   max-height: 50px;
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1489,10 +1488,13 @@ address {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .price .title {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    width: 40%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 45%;
   }
 }
 
@@ -1501,7 +1503,6 @@ address {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    gap: 30px;
   }
 }
 

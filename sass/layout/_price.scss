@@ -10,16 +10,17 @@
     border: 1px solid #eeeeee;
     position: relative;
     @media screen and(min-width:768px) and(max-width:1199px){
-        justify-content: flex-start;
-        width: 40%;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
     }
 }
 
 .price:last-child{
     @media screen and(min-width:768px) and(max-width:1199px) {
     justify-content: flex-start;
-    gap: 30px;}}
-
+}
+}
 .price .title:hover,
 .price .title:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -29,6 +30,7 @@
 .thumb {
     position: relative;
     overflow: hidden;
+
 }
 
 

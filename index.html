@@ -52,7 +52,7 @@
             </svg>+38 096 111 11 11</a>
         </li>
       </ul>
-      
+
       <button data-menu-open type="button" class="burger" >
         <svg width="40" height="40">
           <use href="./image/sprite.svg#icon-burger"></use>
@@ -298,7 +298,22 @@
             </li>
 
             <li class="item">
-              <img src="./image/foto2.jpg" alt="Фото Ольги Рєпіної" width="270" height="260" />
+              <picture>
+              
+                <source srcset="./image/decktop/img(4).jpg 1x,
+                                              ./image/decktop/img2@(4).jpg 2x " media="(min-width:1200px)" />
+              
+              
+              
+                <source srcset="./image/tablet/olhat.jpg 1x,
+                                              ./image/tablet/olhat2@(1).jpg 2x " media="(min-width:768px)" />
+              
+              
+                <source srcset="./image/mobile/olgam.jpg 1x,
+                              ./image/mobile/olgam2@.jpg 2x " media="(max-width:767px)" />
+              
+                <img src="./image/mobile/ihorm@2x.jpg" alt="Фото Ігора Дем'яненка" width="270" height="260" />
+              </picture>
               <div class="name_position">
                 <h3 class="team_name">Ольга Рєпіна</h3>
                 <p class="team_position">Frontend Developer</p>
@@ -337,7 +352,22 @@
             </li>
 
             <li class="item">
-              <img src="./image/foto3.jpg" alt="Фото Миколи Тарасова" width="270" height="260" />
+              <picture>
+              
+                <source srcset="./image/decktop/img(5).jpg 1x,
+                                                            ./image/decktop/img2@(5).jpg " media="(min-width:1200px)" />
+              
+              
+              
+                <source srcset="./image/tablet/mykola.jpg 1x,
+                                                            ./image/tablet/mykola2@ (2).jpg 2x " media="(min-width:768px)" />
+              
+              
+                <source srcset="./image/mobile/mykolam.jpg 1x,
+                                            ./image/mobile/mykolam2@.jpg 2x " media="(max-width:767px)" />
+              
+                <img src="./image/mobile/ihorm@2x.jpg" alt="Фото Ігора Дем'яненка" width="270" height="260" />
+              </picture>
               <div class="name_position">
                 <h3 class="team_name">Микола Тарасов</h3>
                 <p class="team_position">Marketing</p>
@@ -376,7 +406,24 @@
             </li>
 
             <li class="item">
-              <img src="./image/foto4.jpg" alt="Фото Михайла Єрмакова" width="270" height="260" />
+                  <picture>
+                  
+                    <source srcset="./image/decktop/img(6).jpg 1x,
+                             ./image/decktop/img2@(6).jpg 2x"
+                      media="(min-width:1200px)" />
+                  
+                  
+                  
+                    <source srcset="./image/tablet/mykhailo.jpg 1x,
+                                                                              ./image/tablet/mykhailo2@(3).jpg 2x "
+                      media="(min-width:768px)" />
+                  
+                  
+                    <source srcset="./image/mobile/mykolam.jpg 1x,
+                                                              ./image/mobile/mykhailom2@.jpg 2x " media="(max-width:767px)" />
+                  
+                    <img src="./image/mobile/ihorm@2x.jpg" alt="Фото Ігора Дем'яненка" width="270" height="260" />
+                  </picture>
               <div class="name_position">
                 <h3 class="team_name">Михайло Єрмаков</h3>
                 <p class="team_position">UI Designer</p>

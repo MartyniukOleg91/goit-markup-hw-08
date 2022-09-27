@@ -775,8 +775,8 @@ textarea {
   right: 25px;
   width: 30px;
   height: 30px;
-  background: var(--color-light);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 50%;
   margin-right: 8px;
   margin-top: 8px;
@@ -784,6 +784,36 @@ textarea {
   fill: currentColor;
   position: absolute;
   right: 0px;
+}
+
+.menu__nav {
+  font-family: "Roboto";
+  font-style: normal;
+  padding-top: 48px;
+  padding-left: 40px;
+}
+
+.menu__link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.menu__link--current {
+  color: #2196F3;
+}
+
+.menu__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__bottom {
+  padding-top: 300px;
+  padding-left: 40px;
 }
 
 /* ====================ХЕДЕР======================= */

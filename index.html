@@ -52,11 +52,65 @@
             </svg>+38 096 111 11 11</a>
         </li>
       </ul>
-      <button type="button" class="burger">
+      <button data-menu-open type="button" class="burger" >
         <svg width="40" height="40">
           <use href="./image/sprite.svg#icon-burger"></use>
         </svg>
       </button>
+
+      <div data-menu class="header_modal"><button data-menu-close class="header_close"></button>
+        <svg width="20" height="20">
+          <use href="./image/sprite.svg#cros"></use>
+        </svg>
+
+        <ul class="menu__nav">
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link menu__link--current">Студія</a>
+          </li>
+          <li class="menu__item">
+            <a href="portfolio.html" class="menu__link">Портфоліо</a>
+          </li>
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">Контакти</a>
+          </li>
+        </ul>
+        <ul class="menu__contact">
+          <li>
+            <a href="mailto:info@devstudio.com" class="header__link ">
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="header__link">
+              +38 096 111 11 11</a>
+          </li>
+        </ul>
+        <ul class="menu__social">
+          <li>
+            <a href="" class="menu__social-link">Instagram
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="menu__social-link">Twitter
+
+            </a>
+          </li>
+          <li>
+            <a href="" class="menu_social-link">Facebook
+
+            </a>
+          </li>
+          <li>
+            <a href="" class="menu__social-link">LinkedIn
+
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+
     </div>
   </header>
 
@@ -147,7 +201,7 @@
               <source srcset="./image/decktop/img.jpg 1x, ./image/decktop/img2@2.jpg 2x" type="image/jpeg"
                 media="(min-widht: 1200px)" />
 
-              <img src="./image/decktop/img.jpg" alt="Програміст працює за стільним офісом" height="294" width="370"/>
+              <img src="./image/decktop/img.jpg" alt="Програміст працює за стільним офісом" height="294" width="370" />
             </picture>
 
 
@@ -157,8 +211,9 @@
             <picture>
               <source srcset="./image/decktop/img(2).jpg 1x, ./image/decktop/img2@(2).jpg 2x" type="image/jpg"
                 media="(min-widht: 1200px)" />
-            
-              <img src="./image/decktop/img(2).jpg" alt="Розробник працює над мобільним інтерфейсом" height="294" width="370" />
+
+              <img src="./image/decktop/img(2).jpg" alt="Розробник працює над мобільним інтерфейсом" height="294"
+                width="370" />
             </picture>
 
             <div class="app">МОБІЛЬНІ ДОДАТКИ</div>
@@ -168,10 +223,11 @@
             <picture>
               <source srcset="./image/decktop/img(1).jpg 1x, ./image/decktop/img2@(1).jpg 2x" type="image/jpg"
                 media="(min-widht: 1200px)" />
-            
-              <img srcset="./image/decktop/img1.jpg 1x, ./image/decktop/img2@.jpg 2x" alt="Веб дизайнер працює з набором кольорів на планшеті" height="294" width="370" />
+
+              <img srcset="./image/decktop/img1.jpg 1x, ./image/decktop/img2@.jpg 2x"
+                alt="Веб дизайнер працює з набором кольорів на планшеті" height="294" width="370" />
             </picture>
-           
+
             <div class="app">ДИЗАЙНЕРСЬКІ РІШЕННЯ</div>
           </li>
         </ul>
@@ -196,13 +252,11 @@
                                 ./image/tablet/ihort2@.jpg 2x " media="(min-width:768px)" />
 
 
-                <source
-                 srcset="./image/mobile/ihorm.jpg 1x,
-                ./image/mobile/ihorm@2x.jpg 2x "
-                media="(max-width:767px)" />
+                <source srcset="./image/mobile/ihorm.jpg 1x,
+                ./image/mobile/ihorm@2x.jpg 2x " media="(max-width:767px)" />
 
-              <img src="./image/mobile/ihorm@2x.jpg" alt="Фото Ігора Дем'яненка" width="270" height="260" />
-                </picture>
+                <img src="./image/mobile/ihorm@2x.jpg" alt="Фото Ігора Дем'яненка" width="270" height="260" />
+              </picture>
               <div class="name_position">
                 <h3 class="team_name">Ігор Дем'яненко</h3>
                 <p class="team_position">Product Designer</p>
@@ -552,6 +606,8 @@
 
     </div>
   </div>
+  <div data-overlay class="overlay"></div>
+  <script src="./js/mobile-menu.js"></script>
   <script src="./js/modal.js"></script>
 </body>
 

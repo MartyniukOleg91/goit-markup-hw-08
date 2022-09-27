@@ -1,0 +1,25 @@
+
+.header_modal{
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: var(--color-light);
+        padding: 20px 48px;
+        transform: translateY(-100%);
+        z-index: 999;
+        transition: 0.3s ease-in-out transform;
+        &.is-open{transform: translateY(0%);}
+
+
+        @media screen and(min-width:768px){
+            display: none;
+        }
+}
+
+.header_close{
+    position: absolute;
+   top: 21px;
+   right: 21px;
+}

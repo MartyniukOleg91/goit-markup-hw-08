@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vw;
+  min-height: 100vw;
   background-color: var(--color-light);
   padding: 20px 48px;
   transform: translateY(-100%);
@@ -56,6 +56,7 @@
 
 .menu__social{
     display: flex ;
+    justify-content: space-around;
     
 }
 
@@ -96,8 +97,5 @@
             line-height: 1.22;
             letter-spacing: 0.02em;
             color: #2196F3;
-            margin-left: 20px;
-            
+        border-right: #212121;
     }
-
-         .menu__social-link +  .menu__social-link{margin-left: 20px;}

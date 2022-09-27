@@ -750,7 +750,7 @@ textarea {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vw;
+  min-height: 100vw;
   background-color: var(--color-light);
   padding: 20px 48px;
   -webkit-transform: translateY(-100%);
@@ -809,6 +809,8 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .menu__item + .menu__item {
@@ -852,11 +854,7 @@ textarea {
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196F3;
-  margin-left: 20px;
-}
-
-.menu__social-link + .menu__social-link {
-  margin-left: 20px;
+  border-right: #212121;
 }
 
 /* ====================ХЕДЕР======================= */

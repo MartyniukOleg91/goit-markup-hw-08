@@ -56,9 +56,33 @@
 
 .menu__social{
     display: flex ;
+    
 }
 
+.menu__item + .menu__item{margin-top: 32px;}
+
 .menu__bottom{
-    padding-top: 300px;
+    padding-top: 1px;
     padding-left: 40px;
 }
+
+.header__link-tel{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #2196F3;}
+
+    .header__link-meil{
+        margin-top: 32px;
+        margin-bottom: 64px;
+        display: block;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 1.16;
+            letter-spacing: 0.02em;
+            color: #757575;
+    }

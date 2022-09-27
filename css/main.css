@@ -816,7 +816,7 @@ textarea {
 }
 
 .menu__bottom {
-  padding-top: 1px;
+  padding-top: 100px;
   padding-left: 40px;
 }
 
@@ -841,6 +841,22 @@ textarea {
   line-height: 1.16;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.menu__social-link {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+  margin-left: 20px;
+}
+
+.menu__social-link + .menu__social-link {
+  margin-left: 20px;
 }
 
 /* ====================ХЕДЕР======================= */

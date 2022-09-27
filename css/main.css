@@ -772,7 +772,8 @@ textarea {
 .header_close {
   position: absolute;
   top: 21px;
-  right: 21px;
+  right: 25px;
+  border-color: rgba(0, 0, 0, 0);
 }
 
 /* ====================ХЕДЕР======================= */

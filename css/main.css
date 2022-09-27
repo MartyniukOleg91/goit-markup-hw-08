@@ -118,7 +118,6 @@ ul {
 /* контейнер */
 .container {
   max-width: 480px;
-  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -808,8 +807,7 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  padding-bottom: 32px;
 }
 
 .menu__item + .menu__item {
@@ -854,6 +852,10 @@ textarea {
   letter-spacing: 0.02em;
   color: #2196F3;
   border-right: #212121;
+}
+
+.menu__social-link {
+  margin-right: 32px;
 }
 
 /* ====================ХЕДЕР======================= */
@@ -1324,7 +1326,7 @@ address {
 }
 
 .footer__label {
-  width: 320px;
+  width: 100%;
   max-height: 50px;
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1334,6 +1336,11 @@ address {
   padding-left: 15px;
   padding-top: 15px;
   padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .footer__label {
+    width: 350px;
+  }
 }
 
 .footer__label:hover,
